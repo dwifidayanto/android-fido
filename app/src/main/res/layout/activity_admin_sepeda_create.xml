@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="0dp"
+        android:background="#fff"
+        android:gravity="center_vertical"
+        android:paddingBottom="8sp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:background="#3E08B8">
+
+            <TextView
+                android:id="@+id/tvActionDataManage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="DETAIL SEPEDA"
+                android:textStyle="bold"
+                android:textColor="#ffff"
+                android:textSize="11sp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:layout_centerInParent="true"
+            android:paddingRight="18sp"
+            android:paddingLeft="18sp"
+            android:visibility="gone">
+
+        </LinearLayout>
+
+    </RelativeLayout>
+    <ImageView
+        android:id="@+id/ivSepeda"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="5dp"
+        android:src="@drawable/bike">
+
+    </ImageView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:textSize="12sp"
+        android:layout_marginBottom="5dp">
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="Kode Sepeda"
+            android:textColor="#000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text=":"
+            android:textColor="#000" />
+
+        <EditText
+            android:id="@+id/etKodeSepeda"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingLeft="7dp"
+            android:hint="example"
+            android:textColor="#000"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:textSize="12sp"
+        android:layout_marginBottom="5dp">
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:textSize="12sp"
+        android:layout_marginBottom="5dp">
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="Jenis Sepeda"
+            android:textColor="#000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text=":"
+            android:textColor="#000" />
+
+        <EditText
+            android:id="@+id/etJenisSepeda"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingLeft="7dp"
+            android:hint="example"
+            android:textColor="#000"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:textSize="12sp"
+        android:layout_marginBottom="5dp">
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="Merk Sepeda"
+            android:textColor="#000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text=":"
+            android:textColor="#000" />
+
+        <EditText
+            android:id="@+id/etMerkSepeda"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingLeft="7dp"
+            android:hint="example"
+            android:textColor="#000"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:textSize="12sp"
+        android:layout_marginBottom="5dp">
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="Warna Sepeda"
+            android:textColor="#000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text=":"
+            android:textColor="#000" />
+
+        <EditText
+            android:id="@+id/etWarnaSepeda"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingLeft="7dp"
+            android:hint="example"
+            android:textColor="#000"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:textSize="12sp"
+        android:layout_marginBottom="5dp">
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="Harga Sewa Sepeda"
+            android:textColor="#000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text=":"
+            android:textColor="#000" />
+
+        <EditText
+            android:id="@+id/etHargaSewa"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingLeft="7dp"
+            android:hint="example"
+            android:textColor="#000"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/btneditsepeda"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/bg_round2"
+        android:text="BUAT"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:textStyle="bold" />
+
+</LinearLayout>
